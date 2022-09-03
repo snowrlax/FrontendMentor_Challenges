@@ -27,6 +27,7 @@ section{
 }
 .card{
     max-width: 400px;
+    height: 80%;
 }
 #advice{
     /* width: 100%; */
@@ -70,7 +71,7 @@ p{
 
 button:hover{
     box-shadow: 0 0 20px hsl(150, 100%, 66%);
-    transition: 0.7s;
+    /* transition: 0.7s; */
 }
 .line{
     width: 80%;
@@ -87,7 +88,7 @@ hr{
 
 @media screen and (max-width: 480px) {
     .container{
-        min-width: 350px;
+        min-width: 200px;
         max-width: 90%;
         min-height: 40% ;
     }
