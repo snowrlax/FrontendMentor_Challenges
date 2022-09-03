@@ -29,8 +29,9 @@ section{
     max-width: 400px;
 }
 #advice{
+    /* width: 100%; */
     padding: 10px;  
-    margin: 5px;
+    margin: auto;
 }
 .buttondiv{
     position: absolute;
@@ -44,7 +45,7 @@ section{
     height: 3rem;
     width: 3rem;
     border-radius: 50%;
-    /* transition: 0.7s; */
+    transition: 0.7s;
 }
 
 p{
@@ -74,8 +75,8 @@ button:hover{
 .line{
     width: 80%;
     padding: 10px 0 30px 0;
-    margin: 10px;
-    
+    margin: auto;
+    bottom: 0;
     
 }
 hr{
@@ -90,5 +91,6 @@ hr{
         max-width: 90%;
         min-height: 40% ;
     }
+
     
 }
