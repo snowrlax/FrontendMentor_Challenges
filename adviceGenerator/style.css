@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: hsl(218, 23%, 16%);
+    
+}
+.container{
+    background-color: hsl(217, 19%, 24%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+section{
+    min-width: 450px;   
+    max-width: 450px;
+    min-height: 200px;
+}
+.card{
+    max-width: 400px;
+    height: 80%;
+}
+#advice{
+    /* width: 100%; */
+    padding: 10px;  
+    margin: auto;
+}
+.buttondiv{
+    position: absolute;
+    bottom: 0;
+}
+#btn{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border: none;
+    background-color: hsl(150, 100%, 66%);
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    transition: 0.7s;
+}
+
+p{
+    font-size: 24px;
+    color: hsl(193, 38%, 86%);
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+}
+#adviceID p{
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-weight: 800;
+    padding: 30px 0 10px 0;
+    color: hsl(150, 100%, 66%);
+}
+#advice p{
+    font-weight: 800;
+}
+#btn i{
+    font-size: 25px;
+}
+
+button:hover{
+    box-shadow: 0 0 20px hsl(150, 100%, 66%);
+    /* transition: 0.7s; */
+}
+.line{
+    width: 80%;
+    padding: 10px 0 30px 0;
+    margin: auto;
+    bottom: 0;
+    
+}
+hr{
+    border: none;
+    background-color: hsl(193, 38%, 86%);   
+}
+
+
+@media screen and (max-width: 480px) {
+    .container{
+        min-width: 200px;
+        max-width: 90%;
+        min-height: 40% ;
+    }
+
+    
+}
